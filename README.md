@@ -35,3 +35,4 @@ Additional Information
 | Website:          | https://wow-nv.com/                                |
 |-------------------|:---------------------------------------------------|
 | Realmlist:        | SET portal logon.wow-nv.com                        |
+ 
