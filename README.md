@@ -36,3 +36,4 @@ Additional Information
 |-------------------|:---------------------------------------------------|
 | Realmlist:        | SET portal logon.wow-nv.com                        |
  
+ 
