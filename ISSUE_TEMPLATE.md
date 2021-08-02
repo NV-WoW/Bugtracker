@@ -25,9 +25,6 @@ If applicable, add screenshots to help explain your problem.
 If applicable, add a streamable (as an example) video link to help explain your problem.
 (Recommended to use streamable website for example)
 
-**WoWHead Link:**
-Add a wowhead link about your issue (please check the correct 4.3.4 15595 changelog for it).
-
 **Desktop (please complete the following information):**
  - OS: [e.g. Windows 10 64 bit]
  - Client [e.g. Minimal Client or Full Client]
