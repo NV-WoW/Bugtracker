@@ -1,33 +1,102 @@
-**Describe the bug:**
- A clear and concise description of what the bug is, where you found it and how to reproduce that issue.
-
-**To Reproduce:**
-Steps to reproduce the behavior:
-1. Go to: '....'
-2. Action: (Quest.-/Object.-/Creature.-/Spell.-/Other related) '....'
-3. Current behaviour: '....'
-4. Expected behaviour:  '....'
-5. Wowhead link: 'https://wowhead.com/....'
-6. Server revision: 'Closed Alpha/Closed Beta/Beta vX....'
-
-Game event areas, quests, vendors, etc should be present during the seasonal event period, and must be mentioned as [EVENT_NAME] tag.
-
-**Current behavior:**
-An exact description of what happened to you.
-
-**Expected behavior:**
-A clear and concise description of what you expected to happen.
-
-**(Not necessary but recommended) Screenshots:**
-If applicable, add screenshots to help explain your problem.
-
-**(Not necessary but recommended) Videos:** 
-If applicable, add a streamable (as an example) video link to help explain your problem.
-(Recommended to use streamable website for example)
-
-**Desktop (please complete the following information):**
- - OS: [e.g. Windows 10 64 bit]
- - Client [e.g. Minimal Client or Full Client]
-
-**Additional context**: 
-Add any other context about the problem here.
+name: Bug report
+description: Create a bug report to help us improve.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking your time to fill out a bug report. Remember to fill out all fields including the title above. 
+        An issue that is not properly filled out will be closed and marked as invalid.
+  - type: dropdown
+    id: client
+    attributes:
+      label: What client do you play on?
+      options:
+      - Full
+      - Minimal
+    validations:
+      required: true
+  - type: checkboxes
+    id: faction
+    attributes:
+      label: Faction
+      options:
+      - label: Alliance
+      - label: Horde
+  - type: checkboxes
+    id: phase
+    attributes:
+      label: "Content Phase:"
+      options:
+      - label: Generic
+      - label: 1-19
+      - label: 20-29
+      - label: 30-39
+      - label: 40-49
+      - label: 50-59
+      - label: 60-69
+      - label: 70-79
+      - label: 80-89
+      - label: 90+
+  - type: textarea
+    id: current
+    attributes:
+      label: Current Behaviour
+      description: |
+        Describe the bug in detail. Database to link spells, NPCs, quests etc: WoWHead links and screenshots are valuable.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Blizzlike Behaviour
+      description: |
+        Describe how it should be working without the bug. Link to evidence if possible such as YouTube videos or WoWHead comments from the time.
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Source
+      description: |
+        HEADS UP: include sources in your bug report which are relevant to the 7.3.5a game version, 
+        we will close any bug like "X should be changed to Y" reported without sources.
+    validations:
+      required: false
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce the problem
+      description: |
+        Describe precisely how to reproduce the bug so we can fix it or confirm its existence:
+        - Which commands to use? Which NPC to teleport to?
+        - Do we need to have debug flags on Cmake?
+        - Do we need to look at the console while the bug happens?
+        - Other steps
+        - Use the ingame commands to identify the unique GUID of an ore/herb/npc:    .npc info  /  .gobject near
+      placeholder: |
+        1. 
+        2. 
+        3. 
+        4.
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Extra Notes
+      description: |
+        Any information that can help the developers to identify and fix the issue should be put here.
+        Examples:
+        Links to items/NPCs/quests from WoWhead.
+      placeholder: |
+        None
+    validations:
+      required: false
+  - type: textarea
+    id: os
+    attributes:
+      label: Operating system
+      value: |
+        Ubuntu 20.04
+    validations:
+      required: true
