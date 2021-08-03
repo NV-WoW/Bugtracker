@@ -24,7 +24,7 @@ body:
       - label: Alliance
       - label: Horde
   - type: dropdown
-    id: level bracket
+    id: level-bracket
     attributes:
       label: "Content Phase:"
       options:
