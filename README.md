@@ -27,12 +27,9 @@ On the Bugtracker everything must be written in English. Before reporting, pleas
 Additional Information
 -------------------------
 
-| Supported Patch:  | 7.3.5                                              |
-| Supported Build:  | 26792                                              |
+| Supported Build:  | 7.3.5 (26792)                                     |
 |-------------------|:--------------------------------------------------|
 | Bugtracker:       | https://github.com/NV-WoW/Bugtracker/issues        |
 | Discord:          | https://discord.gg/e4hpZCntnP                      |
 | Website:          | https://wow-nv.com/                                |
 | Realmlist:        | SET portal logon.wow-nv.com                        |
- 
- 
