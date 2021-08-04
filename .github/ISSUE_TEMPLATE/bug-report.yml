@@ -5,7 +5,7 @@ body:
     attributes:
       value: |
         Thank you for taking your time to fill out a bug report. Remember to fill out all fields including the title above. 
-        An issue that is not properly filled out will be closed.
+        An issue that is not properly filled out (not followed this form)/duplicated will be closed.
   - type: dropdown
     id: client
     attributes:
@@ -38,7 +38,6 @@ body:
       - 90-100
       - 100-110
       - 110 (Legion only)
-  
   - type: textarea
     id: current
     attributes:
@@ -87,6 +86,7 @@ body:
         Any information that can help the developers to identify and fix the issue should be put here.
         Examples:
         Links to items/NPCs/quests from WoWhead/YouTube etc.
+        Images place
       placeholder: |
         None
     validations:
