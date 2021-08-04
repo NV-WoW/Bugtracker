@@ -28,12 +28,11 @@ Additional Information
 -------------------------
 
 | Supported Patch:  | 7.3.5                                              |
-| Supported Build:  | 26365                                              |
-|-------------------|:---------------------------------------------------|
+| Supported Build:  | 26792                                              |
+|-------------------|:--------------------------------------------------|
 | Bugtracker:       | https://github.com/NV-WoW/Bugtracker/issues        |
 | Discord:          | https://discord.gg/e4hpZCntnP                      |
 | Website:          | https://wow-nv.com/                                |
-|-------------------|:---------------------------------------------------|
 | Realmlist:        | SET portal logon.wow-nv.com                        |
  
  
