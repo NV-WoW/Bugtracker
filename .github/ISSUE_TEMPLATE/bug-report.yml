@@ -1,5 +1,5 @@
 name: Nethervoid Bugtracker
-description: Create a bug report to help us improve. Before you open a new report, use the search field! Duplicated reports will be deleted!
+description: Create a bug report to help us improve. Before you open a new report, use the search field! Duplicated reports will be deleted! Use this "Get Started" button here 👉 
 body:
   - type: markdown
     attributes:
